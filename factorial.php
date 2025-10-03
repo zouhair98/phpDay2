@@ -5,6 +5,6 @@ function factor($num){
     for($i=$num ; $i>=1 ;$i--){
         $fac*=$i;
     }
-    return $fac;
+    return "your factorial is : $fac";
 }
 echo factor(5);
